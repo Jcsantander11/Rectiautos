@@ -1,10 +1,12 @@
-*{
+*{    
     p{
         font-size: 20px;
         color: rgb(78, 78, 78);
         font-weight: 400;
     }
     h2{
+        font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
         font-size: 40px;
     }
 }
@@ -27,6 +29,12 @@
 .lema p{
     font-size: 15px;
     font-weight: 450;
+    
+}
+
+.lema a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
 }
 
 .telefono, .correo{
@@ -256,6 +264,10 @@ nav a{
     align-items: center;
 }
 
+.autor a{
+    color: white;
+    text-decoration: none;
+}
 
 
 /*MOTORES QUE ARREGLAMOS*/
@@ -401,7 +413,6 @@ nav a{
 }
 
 .pie__pagina{
-  backdrop-filter: blur(10px);
   padding: 2% 6%;
   color: white;
 }
@@ -410,7 +421,7 @@ nav a{
 /*HOVER Y ACTIVE*/
 .op:hover{
     scale: 115%;
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(170, 170, 170);
     border-radius: 10px;
 }
 .op a{
@@ -431,7 +442,7 @@ nav a{
 
 .servicios__nav:hover{
     scale: 115%;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(223, 242, 243);
     border-radius: 10px;
     transition: 500ms;
 }
@@ -441,4 +452,16 @@ nav a{
     scale: 115%;
     transform: rotatey(360deg);
     transition: 1500ms;
+}
+
+.lema__empresa:hover p{
+    scale:110%;
+    transition: 1500ms;
+    color: white;
+    text-shadow: 0px 2px 5px solid rgb(29, 29, 29);
+    
+}
+.contacto_enl:hover a{
+    color: white;
+    text-shadow: 0px 2px 5px solid rgb(29, 29, 29);
 }
